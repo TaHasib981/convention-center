@@ -1,0 +1,28 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* banner section 
+====================================================== */
+.banner1{
+    background-image: url(images/banner.png);
+    height: 500px;
+}
+.first-slide{
+    height: 500px;
+}
+.cesta{
+    text-align: center;
+}
+.text-section{
+   width: 500px;
+  text-align: center;
+}
+.carosel-btn{
+    background-color: white;
+   border: none;
+   padding: 4px 20px;
+   border-radius: 8px;
+}
+/* package section 
+=========================================== */
+
