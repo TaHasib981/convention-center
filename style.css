@@ -26,3 +26,13 @@ body{
 /* package section 
 =========================================== */
 
+ /* Frequently asked Queistions
+ ============================================ */
+.col-right{
+    height: 350px;
+    
+}
+.col-right img{
+    width: 100%;
+    height: 350px;
+}
