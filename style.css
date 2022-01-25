@@ -4,8 +4,26 @@ body{
 /* banner section 
 ====================================================== */
 .banner1{
-    background-image: url(images/banner.png);
+    background-image: url(images/convention1.jpg);
     height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.719);
+    background-blend-mode: overlay;
+}
+.banner2{
+    background-image: url(images/convention2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.74);
+    background-blend-mode: overlay;
+}
+.banner3{
+    background-image: url(images/convention3.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .first-slide{
     height: 500px;
@@ -23,12 +41,28 @@ body{
    padding: 4px 20px;
    border-radius: 8px;
 }
+.the-badge{
+    position:absolute;
+    top: 790px;
+    right: 372px;
+    
+}
+
+
 /* package section 
 =========================================== */
 .book-now{
     background-color: pink;
     border: none;
     border-radius: 20px;
+}
+.toast-bg{
+    border-left: 5px solid green;
+}
+.package{
+  
+    padding-left: 20px;
+
 }
  /* Frequently asked Queistions
  ============================================ */
@@ -68,4 +102,20 @@ footer{
 .content-parent{
     height: 300px;
 
+}
+/* media qeury
+============================== */
+@media only screen and (max-width:576px) {
+  
+.footer-right{
+    order: 1;
+}
+.footer-left{
+    order:2
+}
+.the-badge{
+ position: absolute;
+ top: 1440px;
+ right: 20px;
+}
 }
